@@ -28,7 +28,7 @@ misp_url = "https://" + misp_server + "/attributes/restSearch/json/null/"
 QRadar_POST_url = "https://" + qradar_server + "/api/reference_data/sets/bulk_load/" + qradar_ref_set
 
 MISP_PData = {
-    "category": "Payload delivery",
+    "category": "Network activity",
     "type": "ip-src"
     }
 
